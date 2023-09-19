@@ -52,6 +52,8 @@ Each subdirectory contains a numpy mmap file for each file in the dataset that c
 
 While this repo uses PASE+ audio features and FastText text features, the repository can be used with other features by following the same directory format, however, change the respective feature size in the config file.
 
+We have also provided the standard scalar used in training which was calculated using only the training data for the GENEA challenge 2023. 
+
 ## Config
 
 This repository allows tweaking hyperparameters through the use of a config file used during training and inference.
