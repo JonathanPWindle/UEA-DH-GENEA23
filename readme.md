@@ -48,7 +48,7 @@ The repo relies on data being pre-processed for each subset of train, validation
             ├── fasttext
             └── audio
 
-Each subdirectory contains a numpy mmap file for each file in the dataset that can be shaped into ($n$,$f$) where $n$ is the number of motion frames and $f$ is the feature size for each frame.
+Each subdirectory contains a numpy mmap file for each file in the dataset that can be shaped into ($n$, $f$) where $n$ is the number of motion frames and $f$ is the feature size for each frame.
 
 While this repo uses PASE+ audio features and FastText text features, the repository can be used with other features by following the same directory format, however, change the respective feature size in the config file.
 
