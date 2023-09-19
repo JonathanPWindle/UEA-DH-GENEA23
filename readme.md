@@ -33,20 +33,20 @@ python pre-processing/generate_fasttext.py --tsv_dir genea_data/train/tsv --dest
 
 The repo relies on data being pre-processed for each subset of train, validation and test stored in a file hierarchy as follows (omitting dof6 and pos for test data):
 
-.
-└── train
-    ├── main-agent
-    │   ├── pase_features
-    │   ├── dof6 .
-    │   ├── pos .
-    │   ├── fasttext
-    │   └── audio .
-    └── interloctr
-        ├── pase_features
-        ├── dof6
-        ├── pos
-        ├── fasttext
-        └── audio
+    .
+    └── train
+        ├── main-agent
+        │   ├── pase_features
+        │   ├── dof6
+        │   ├── pos
+        │   ├── fasttext
+        │   └── audio
+        └── interloctr
+            ├── pase_features
+            ├── dof6
+            ├── pos
+            ├── fasttext
+            └── audio
 
 Each subdirectory contains a numpy mmap file for each file in the dataset that can be shaped into ($n$,$f$) where $n$ is the number of motion frames and $f$ is the feature size for each frame.
 
