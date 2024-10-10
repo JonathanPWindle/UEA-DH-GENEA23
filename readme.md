@@ -2,6 +2,11 @@
 
 This repository contains implementations for  [The UEA Digital Humans Entry to the GENEA Challenge 2023](https://openreview.net/pdf?id=bBrebR1YpXe). This is a self and cross-attention adaptation of the [Transformer-XL](https://github.com/kimiyoung/transformer-xl) model.
 
+### Results
+
+https://github.com/user-attachments/assets/1a6a71df-dd07-473a-b127-25c13bb25625
+
+
 
 
 ## Data Pre-Processing
